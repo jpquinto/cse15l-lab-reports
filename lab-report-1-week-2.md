@@ -2,13 +2,13 @@
 **Jeremy Quinto**
 
 Hello future students (or me)! Welcome to my first lab report. In this report I will give a tutorial on how to login to a course-specific account on the remote server `ieng6`.
-
+---
 ## Step 1: Installing VS Code
 The first step to getting started is installing the wonderful IDE, VSCode.
 Head  to this [link](https://code.visualstudio.com/download) in order to download VSCode. Your page should look like this:
 ![Install VDScode Site](installvscode.png)
 Once you have VSCode installed and open, you are ready for the next step.
-
+---
 ## Step 2: Remotely Connecting
 For this class, you will have a course specific account from UCSD. Make sure you know your login and your password for that account so we can login to the server.
 First, make sure you install [OpenSHH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
@@ -25,7 +25,7 @@ If you've input your username correctly, you will be prompted to input your pass
 ![Terminal Login](loginscreenshot.png)
 
 Congratulations, you're now connected to a computer in the CSE basement! Your computer is the *client* and the basement computer is the *remote server*. Any commands you type in the client will run on the remote server! Wow!
-
+---
 ## Step 3: Trying Some Commands
 Now we will try out some commands. Try running the commands `cd`, `ls`, `pwd`, `mkdir`, and `cp` a couple times on the terminal connected to `ieng6`. Then try running these same commands in another terminal in VSCode. They should produce different results. 
 
@@ -36,7 +36,7 @@ To log out of the server, use
 * Run the command `exit`
 
 To open multiple terminals in VSCode, click the "+" button in the top right of the terminal window. 
-
+---
 ## Step 4: Moving Files Over SSH With `scp`
 Now we will learn how to move files from our computer to the remote server. To do this, we'll use the command `scp`, and we will run it from the client (your computer connected to `ieng6`).
 
@@ -54,7 +54,7 @@ Then, you should login to `ieng6` with `ssh` again. Once you're in, run the comm
 Now run it on the `ieng6` computer using `javac` and `java`. Java is installed on the server, so it should be able to run for everyone.
 
 Now take note of what is output when you run `WhereAmI.java` on your computer vs on the remote server. `getProperty` seems to get its properties from the device it's running on.
-
+---
 ## Step 5: Setting An SSH Key
 Inputting your password every time you login can end up taking a long time in the long run, espcially if you're doing this hundreds of times (and the course specific passwords are like 12 characters long!). In this step we'll outline a process that will generate an SSH key, allowing you to login in a lot less time.
 
@@ -79,7 +79,7 @@ Now, on the client, type
 Use your username in the path above.
 
 Once you've done this command, you'll be able to login to `ieng6` without a password. Amazing!
-
+---
 ## Step 6: Optimizing Remote Running
 Now we can further optimize remote running. 
 
@@ -93,6 +93,6 @@ You can also use semicolons to run multiple commands on the same line in most te
 `$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 
 You can use the up-arrow on your keyboard to recall the last command that was run.
-
+---
 ## Wrapping Up
-This is all for my tutorial on remote connecting. Thank you for reading and I hope this worked for you!
+This is all for my tutorial on remote connecting. Thank you for reading and I hope this worked for you! **Have a great day!**
