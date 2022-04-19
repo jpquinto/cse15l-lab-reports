@@ -48,6 +48,8 @@ Then, in the terminal from the directory where you made this file, run this comm
 `scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu`
 Again, make sure you replace the "zz" with your actual username. 
 
+![Example shown:](scp.png)
+
 You should be prompted with a password again, go ahead and input it.
 Then, you should login to `ieng6` with `ssh` again. Once you're in, run the command `ls` again. You should see the file in your home directory!
 
