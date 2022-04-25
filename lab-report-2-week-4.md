@@ -49,6 +49,7 @@ This is an example of a change we made in the code that helped this code create 
 ![Change Diff](change1.png)
 
 [This is an example of a test file that is a failure-inducing input.](lr2-test-cases/testcase1.md)
+
 In this case, the program does not output anything. 
 
 The symptom of this failure-inducing input is that the while loops runs forever, which means the program never outputs what is desired, since getLinks() never gets to return anything. 
@@ -64,6 +65,7 @@ This is another example of a change we made in the code that helped this code cr
 
 [This is an example of a test file that is a failure-inducing input](lr2-test-cases/testcase2.md)
 ![This is the output of the program for this file](output2.png)
+
 In this example, the symptom is the program adding extra things to the list to return. More specifically, failure-inducing inputs for this bug would be markdown files where brackets `[]` are used, and a couple words or lines later, parentheses `()` are used. In this case, nothing should be added to the list, but before our changes, everything in between the parentheses would be added to the list.
 
 The bug is a logic error. Instead of just checking the locations for the brackets and parentheses, the program should also check if openParen comes directly after closeBracket. 
