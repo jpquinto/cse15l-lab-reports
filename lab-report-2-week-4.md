@@ -46,9 +46,9 @@ public class MarkdownParse {
 ## Change 1
 This is an example of a change we made in the code that helped this code create a little less bugs:
 
-**SCREENSHOT IMAGE OF CHANGE DIFF**
+![Change Diff](lr2-screenshots/change1.png)
 
-**The following is an example of a test file that is a failure-inducing input.**
+[The following is an example of a test file that is a failure-inducing input.](lr2-test-cases/testcase1.md)
 In this case, the program does not output anything. 
 
 The symptom of this failure-inducing input is that the while loops runs forever, which means the program never outputs what is desired, since getLinks() never gets to return anything. 
