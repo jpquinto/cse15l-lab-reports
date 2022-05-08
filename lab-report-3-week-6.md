@@ -6,8 +6,8 @@ Hello again, future students (or me)! Welcome to my third lab report. In this re
 1. Streamlining `ssh` configuration
 2. Setting up GitHub Access from `ieng6`
 3. Copying whole directories with `scp -r`
-===
-## Streamlining `ssh` Cnofiguration
+
+## Streamlining `ssh` Configuration
 To log onto the `ieng6` server from your desktop, you would type:
 `ssh cs15lsp22zzz@ieng6.ucsd.edu`
 This can be a lot to type every single time you're trying to log into the server. Luckily, we're going to streamline this!
@@ -56,6 +56,12 @@ Now, as an example, I will demonstrate creating a secure copy onto the server wi
 Type `scp <file> ieng6` to copy a file. In this example, I copied `ToCopy.java`.
 ![](scp-streamlined.png)
 
-===
+
 ## Setting Up GitHub Access From `ieng6`
-In command-line `git`, we saw in class how to use `clone` and `pull` to get code from GitHub, and even `git status` to check the status. However, when we try and run `commit` and `push`
+In command-line `git`, we saw in class how to use `clone` and `pull` to get code from GitHub, and even `git status` to check the status. However, when we try and run `commit` and `push`, we get an error!
+
+Support for password authentication was removed, so we must use a personal access token instead, just like SSH keys.
+
+To configure your account on GitHub.com to use your new SSH key, you'll need to add the key to your account. 
+
+
