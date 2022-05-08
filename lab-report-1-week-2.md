@@ -45,7 +45,7 @@ Create a file in VSCode called `WhereAmI.java`. Add the following code into the 
 Run the code using `javac` and `java` (assuming you have java installed).
 
 Then, in the terminal from the directory where you made this file, run this command:
-`scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu`
+`scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/`
 Again, make sure you replace the "zz" with your actual username. 
 
 ![Example shown:](scp.png)
