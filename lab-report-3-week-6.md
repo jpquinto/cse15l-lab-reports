@@ -91,4 +91,4 @@ This is where my public and private keys are stored on my device:
 This is me using Git Commands to commit and push using terminal:
 ![](pushing-with-git.png)
 This is a link to the commit shown above:
-[](https://github.com/jpquinto/cse15l-lab-reports/commit/7ad95ebf69c1ec56ed15a1d00a02bffc171d29ae)
+[Link](https://github.com/jpquinto/cse15l-lab-reports/commit/7ad95ebf69c1ec56ed15a1d00a02bffc171d29ae)
