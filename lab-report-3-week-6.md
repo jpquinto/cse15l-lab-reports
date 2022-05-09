@@ -86,3 +86,5 @@ Now you should be good to use GitHub through your Terminal. Some notes:
 
 For reference, here is what my GitHub's SSH key page looks like: 
 ![](ssh-keys-on-github.png)
+This is where my public and private keys are stored on my device:
+![](github-keys-locations.png)
