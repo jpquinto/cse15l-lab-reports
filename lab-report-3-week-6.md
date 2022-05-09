@@ -64,5 +64,17 @@ Support for password authentication was removed, so we must use a personal acces
 
 To configure your account on GitHub.com to use your new SSH key, you'll need to add the key to your account. 
 
-Test 1
-Test 2
+THe first step I took is to make a new key using `ssh-keygen`. Doing this will create a new private/public key pair similar to the one used to login to the `ieng6` server. 
+
+1. Open a Terminal and enter `ssh-keygen`
+2. For the file name, type `/Users/<user-name>/.ssh/id_rsa_github`
+
+This will create a new key in your `/.ssh` folder. Open up Terminal again, and do the following:
+
+1. Change your directory to `/.ssh`:
+    `cd ~/.ssh`
+2. Open up the public key you just created:
+    `open -t id_rsa_github.pub`
+3. Copy the contents.
+4. Open GitHub on a browser and go to `Settings -> Access -> SSH Keys`.
+5. 
