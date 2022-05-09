@@ -77,4 +77,12 @@ This will create a new key in your `/.ssh` folder. Open up Terminal again, and d
     `open -t id_rsa_github.pub`
 3. Copy the contents.
 4. Open GitHub on a browser and go to `Settings -> Access -> SSH Keys`.
-5. 
+5. Click `New SSH KEY`. Input the name of your device, and paste the key you copied.
+6. Click `Add SSH Key`.
+
+Now you should be good to use GitHub through your Terminal. Some notes:
+- Make sure you have Git downloaded on your Mac (I had to download it)
+- Make sure you copy/paste the **public** key to GitHub
+
+For reference, here is what my GitHub's SSH key page looks like: 
+![](ssh-keys-on-github.png)
