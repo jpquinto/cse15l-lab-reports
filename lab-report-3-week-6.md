@@ -91,4 +91,36 @@ This is where my public and private keys are stored on my device:
 This is me using Git Commands to commit and push using terminal:
 ![](pushing-with-git.png)
 This is a link to the commit shown above:
-[Link](https://github.com/jpquinto/cse15l-lab-reports/commit/7ad95ebf69c1ec56ed15a1d00a02bffc171d29ae)
+[Commit](https://github.com/jpquinto/cse15l-lab-reports/commit/7ad95ebf69c1ec56ed15a1d00a02bffc171d29ae)
+
+## Copying whole directories with `scp -r`
+Now we will learn how to copy entire directories using `scp -r`. Up to this point, we've been using `scp` to copy one file at a time. This won't do in the long run, as the directories we work with get bigger.
+
+`scp` has an option for this. We can ask `scp` to copy recursively, meaning it will copy a directory and all the files and directories within it, and all the files and directories within those, and so on.
+
+Let's say we're working in the `markdown-parse` directory. It has the following files:
+- MarkdownParse.java
+- test-file2.md
+- test-file6.md
+- MarkdownParseTest.java
+- test-file3.md
+...
+
+We can use the following command to copy the directory to the remote server. (Make sure to give a name for the copy on the remote server):
+`scp -r . ieng6.ucsd.edu:~/markdown-parse`
+
+Some notes:
+- The `-r` tells `scp` to work recursively.
+- The `.` is the source, the current directory. 
+
+Here is a screenshot of me copying the files over to the remote server using the command:
+![](copying-repository.png)
+
+This is a screenshot of me running the tests in the remote server:
+![](testing-copy.png)
+
+We can also combine these steps using `;`, running the commands at once. Below I demonstrate how to do so, copying the repository and running it in one command:
+![](combining-p1.png)
+![](combining-p2.png)
+
+And that is all! Thank you for reading!
