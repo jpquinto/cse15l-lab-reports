@@ -123,4 +123,4 @@ We can also combine these steps using `;`, running the commands at once. Below I
 ![](combining-p1.png)
 ![](combining-p2.png)
 
-And that is all! Thank you for reading!
+And that is all! Thank you for reading! Have a nice day!
