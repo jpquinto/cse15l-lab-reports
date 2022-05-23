@@ -5,7 +5,9 @@ Hello again, future students (or me)! Welcome to my fourth lab report. In this r
 
 ## Implementations
 Here are the links to the implementations we will be testing:
+
 [My group's](https://github.com/wow13524/markdown-parser)
+
 [Other](https://github.com/nidhidhamnani/markdown-parser)
 
 ## Test Snippets
@@ -70,7 +72,7 @@ These are the tests written to test these implementations:
 
 ### My Group's Implementation
 First, we will test my group's implementation. Unfortunately,all 3 tests failed. 
-![Tests](my-test.png)
+![Tests](my-tests.png)
 
 ### Other Implementation
 Now we will test the other implementation. Unfortunately for this implementation, all 3 tests failed. 
