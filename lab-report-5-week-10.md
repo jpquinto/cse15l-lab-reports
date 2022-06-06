@@ -19,8 +19,8 @@ In order to find which tests the implementations differed in, I used `vimdiff`. 
 
 Below are links to the two result files. `result.txt` is from the given implementation, and `result2.txt` is from my group's.
 
-[result.txt](https://jpquinto.github.io/cse15l-lab-reports/result.txt)
-[result2.txt](https://jpquinto.github.io/cse15l-lab-reports/result2.txt)
+[result.txt](https://github.com/jpquinto/cse15l-lab-reports/blob/main/results.txt)
+[result2.txt](https://github.com/jpquinto/cse15l-lab-reports/blob/main/results2.txt)
 
 Then, using `vimdiff` on the two files, found differences in test 14 and 201, as shown below. 
 
